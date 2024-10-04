@@ -1,8 +1,10 @@
-const hamburger = document.querySelector(".mobile-nav");
-const navLinks = document.querySelector(".nav-links");
+// Selecting elements
+const mobileNav = document.querySelector(".mobile-nav");
+const mobileNavLinks = document.querySelector(".mobile-nav-links");
 
-hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
+// Adding event listener to mobile-nav (hamburger icon)
+mobileNav.addEventListener("click", () => {
+  mobileNavLinks.classList.toggle("show");
 });
 
 // Smooth scroll (if needed)
